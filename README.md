@@ -11,6 +11,35 @@
 > This repository demonstrates a technical foundation for an AI support application. It is not a production-ready enterprise deployment, and additional security, testing, integration, and operational work would be required before real-world use.
 
 ---
+## Project S.S — Screenshots
+
+The following screenshots showcase the user interface and key interactions of **Project S.S**.
+
+### 1. Dashboard
+Displays the main dashboard interface.
+
+![Dashboard](Project%20S.S/Dashboard.png)
+
+### 2. Login Dashboard
+Shows the login interface and dashboard entry experience.
+
+![Login Dashboard](Project%20S.S/Login%20Dashboard.png)
+
+### 3. Question Thinking
+Shows the question-processing or thinking interface.
+
+![Question Thinking](Project%20S.S/Question%20Thinking.png)
+
+### 4. Question Answer
+Displays an answer generated in response to a question.
+
+![Question Answer](Project%20S.S/Question%20ans.png)
+
+### 5. Another Answer Example
+Provides an additional example of the answer interface.
+
+![Another Answer](Project%20S.S/Another%20ans.png)
+
 
 ## Table of Contents
 
