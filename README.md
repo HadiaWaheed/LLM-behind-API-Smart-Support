@@ -11,9 +11,9 @@
 > This repository demonstrates a technical foundation for an AI support application. It is not a production-ready enterprise deployment, and additional security, testing, integration, and operational work would be required before real-world use.
 
 ---
-## Project S.S — Screenshots
+## Screenshots
 
-The following screenshots showcase the user interface and key interactions of **Project S.S**.
+The following screenshots showcase the user interface and key interactions.
 
 ### 1. Dashboard
 Displays the main dashboard interface.
