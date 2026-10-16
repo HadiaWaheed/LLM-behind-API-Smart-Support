@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+pydantic
+python-dotenv
+requests
+sqlalchemy
+pyjwt
+pwdlib[argon2]
+pip install email-validator

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "case-001",
+    "text": "I was charged twice for my subscription.",
+    "expected": {
+      "category": "billing",
+      "urgency": "medium",
+      "suggested_team": "billing"
+    }
+  },
+  {
+    "id": "case-002",
+    "text": "I cannot log into my account.",
+    "expected": {
+      "category": "account",
+      "urgency": "medium",
+      "suggested_team": "account-support"
+    }
+  },
+  {
+    "id": "case-003",
+    "text": "My package has not arrived yet.",
+    "expected": {
+      "category": "delivery",
+      "urgency": "medium",
+      "suggested_team": "delivery"
+    }
+  },
+  {
+    "id": "case-004",
+    "text": "I want a refund for my recent purchase.",
+    "expected": {
+      "category": "refund",
+      "urgency": "medium",
+      "suggested_team": "billing"
+    }
+  },
+  {
+    "id": "case-005",
+    "text": "The mobile app crashes whenever I try to open it.",
+    "expected": {
+      "category": "technical",
+      "urgency": "high",
+      "suggested_team": "technical-support"
+    }
+  },
+  {
+    "id": "case-006",
+    "text": "Can you tell me more about your service?",
+    "expected": {
+      "category": "other",
+      "urgency": "low",
+      "suggested_team": "general-support"
+    }
+  },
+  {
+    "id": "case-007",
+    "text": "Someone changed my account password and I cannot access my account.",
+    "expected": {
+      "category": "account",
+      "urgency": "high",
+      "suggested_team": "account-support"
+    }
+  },
+  {
+    "id": "case-008",
+    "text": "The payment for my order keeps failing.",
+    "expected": {
+      "category": "billing",
+      "urgency": "high",
+      "suggested_team": "billing"
+    }
+  }
+]

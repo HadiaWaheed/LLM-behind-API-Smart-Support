@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "total_cases": 8,
+    "passed": 8,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "results": [
+    {
+      "id": "case-001",
+      "text": "I was charged twice for my subscription.",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "billing",
+        "urgency": "medium",
+        "suggested_team": "billing",
+        "confidence": 0.95,
+        "reason": "The customer reports a duplicate subscription charge."
+      },
+      "expected": {
+        "category": "billing",
+        "urgency": "medium",
+        "suggested_team": "billing"
+      }
+    },
+    {
+      "id": "case-002",
+      "text": "I cannot log into my account.",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "account",
+        "urgency": "medium",
+        "suggested_team": "account-support",
+        "confidence": 0.95,
+        "reason": "The customer reports being unable to log into their account."
+      },
+      "expected": {
+        "category": "account",
+        "urgency": "medium",
+        "suggested_team": "account-support"
+      }
+    },
+    {
+      "id": "case-003",
+      "text": "My package has not arrived yet.",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "delivery",
+        "urgency": "medium",
+        "suggested_team": "delivery",
+        "confidence": 0.92,
+        "reason": "The customer reports that their package has not arrived."
+      },
+      "expected": {
+        "category": "delivery",
+        "urgency": "medium",
+        "suggested_team": "delivery"
+      }
+    },
+    {
+      "id": "case-004",
+      "text": "I want a refund for my recent purchase.",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "refund",
+        "urgency": "medium",
+        "suggested_team": "billing",
+        "confidence": 0.95,
+        "reason": "The customer explicitly requests a refund for a recent purchase."
+      },
+      "expected": {
+        "category": "refund",
+        "urgency": "medium",
+        "suggested_team": "billing"
+      }
+    },
+    {
+      "id": "case-005",
+      "text": "The mobile app crashes whenever I try to open it.",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "technical",
+        "urgency": "high",
+        "suggested_team": "technical-support",
+        "confidence": 0.94,
+        "reason": "The customer reports that the mobile app crashes when attempting to open it."
+      },
+      "expected": {
+        "category": "technical",
+        "urgency": "high",
+        "suggested_team": "technical-support"
+      }
+    },
+    {
+      "id": "case-006",
+      "text": "Can you tell me more about your service?",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "other",
+        "urgency": "low",
+        "suggested_team": "general-support",
+        "confidence": 0.85,
+        "reason": "The customer is asking for general information about the service."
+      },
+      "expected": {
+        "category": "other",
+        "urgency": "low",
+        "suggested_team": "general-support"
+      }
+    },
+    {
+      "id": "case-007",
+      "text": "Someone changed my account password and I cannot access my account.",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "account",
+        "urgency": "high",
+        "suggested_team": "account-support",
+        "confidence": 0.96,
+        "reason": "The customer reports an unauthorized password change and inability to access the account."
+      },
+      "expected": {
+        "category": "account",
+        "urgency": "high",
+        "suggested_team": "account-support"
+      }
+    },
+    {
+      "id": "case-008",
+      "text": "The payment for my order keeps failing.",
+      "status_code": 200,
+      "passed": true,
+      "actual": {
+        "category": "billing",
+        "urgency": "high",
+        "suggested_team": "billing",
+        "confidence": 0.95,
+        "reason": "The customer reports repeated payment failures for an order."
+      },
+      "expected": {
+        "category": "billing",
+        "urgency": "high",
+        "suggested_team": "billing"
+      }
+    }
+  ]
+}
